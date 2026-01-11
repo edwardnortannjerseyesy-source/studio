@@ -17,13 +17,13 @@ export function ProductInfo() {
     <div className="w-full bg-primary">
       <div className="flex items-center justify-between px-4 py-4">
         <div>
-          <div className="mb-1">
+          <div className="mb-1 flex items-baseline">
             <h2 className="text-[15px] text-white">
               <strike className="opacity-80">R$ 331,90</strike>
-              <span className="ml-1.5 inline-flex items-center rounded-sm bg-accent px-1 py-0.5 align-middle text-[14px] font-bold text-primary">
-                -<strong>60%</strong>
-              </span>
             </h2>
+            <span className="ml-1.5 inline-flex items-center rounded-sm bg-accent px-1 py-0.5 align-middle text-[14px] font-bold text-primary">
+              -<strong>60%</strong>
+            </span>
           </div>
           <div>
             <h2 className="font-headline flex items-baseline leading-none text-white">
