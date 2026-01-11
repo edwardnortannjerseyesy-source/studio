@@ -48,15 +48,6 @@ const products = [
     rating: '4.9',
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
-  {
-    name: 'Arame de Solda Mig com Uso de Gás Carretel de Plástico 15kg Espessura 0,8mm ou 1,0mm Erbmaquinas',
-    price: '199,00',
-    sold: '134 vendidos',
-    discount: '-20%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-824ji-mdvsan403k00a8_tn.webp',
-    rating: '4.9',
-    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
-  },
 ];
 
 function ProductCard({ product }: { product: (typeof products)[0] }) {
