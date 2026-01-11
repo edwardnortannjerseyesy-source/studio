@@ -48,15 +48,6 @@ const products = [
     rating: '4.9',
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
-  {
-    name: 'Aparelho Maquina Inversor Solda 130a Bivolt 127/220v Digital',
-    price: '399,90',
-    sold: '1mil+ vendidos',
-    discount: '-33%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-824i1-mfcq6rdr0r2g1d_tn.webp',
-    rating: '4.9',
-    promoIcon: 'https://down-br.img.susercontent.com/file/id-11134258-81ztc-me3yjy0bgg02c5',
-  },
    {
     name: 'Betoneira Elétrica Grande 400 Litros Construção Motor 2cv Monofásico Com Rodas CMS',
     price: '4.299,00',
