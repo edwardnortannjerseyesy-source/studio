@@ -48,15 +48,6 @@ const products = [
     rating: '4.9',
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
-   {
-    name: 'Betoneira Elétrica Grande 400 Litros Construção Motor 2cv Monofásico Com Rodas CMS',
-    price: '4.299,00',
-    sold: '2 vendidos',
-    discount: '-14%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7rdyf-mckz873up0zgfb_tn.webp',
-    rating: '5.0',
-    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
-  },
   {
     name: 'Arame de Solda Mig com Uso de Gás Carretel de Plástico 15kg Espessura 0,8mm ou 1,0mm Erbmaquinas',
     price: '199,00',
