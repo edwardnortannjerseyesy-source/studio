@@ -6,7 +6,7 @@ import {
   User,
 } from 'lucide-react';
 import Image from 'next/image';
-import { SameSellerProducts, MoreProducts } from './same-seller-products';
+import { SameSellerProducts } from './same-seller-products';
 
 function DetailRow({
   label,
@@ -246,7 +246,6 @@ export function ProductDetails() {
         </div>
       </div>
       <SameSellerProducts />
-      <MoreProducts />
     </div>
   );
 }
