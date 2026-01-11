@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        body: ['PT Sans', 'sans-serif'],
+        headline: ['Space Grotesk', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -65,6 +65,10 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
+        'shopee-cyan': '#00dddc',
+      },
+      backgroundImage: {
+        'shopee-gradient': 'linear-gradient(to bottom, #ee4d2d, #ff6b00)',
       },
       borderRadius: {
         lg: 'var(--radius)',
