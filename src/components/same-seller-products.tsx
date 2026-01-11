@@ -17,7 +17,7 @@ const products = [
     price: '15.699,99',
     sold: '',
     discount: '-24%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-8257x-mg570rcm9jbj6c_tn.webp',
+    image: 'https://i.imgur.com/VT0ZcoI.jpeg',
     rating: null,
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
@@ -26,7 +26,7 @@ const products = [
     price: '599,99',
     sold: '154 vendidos',
     discount: '-40%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7qvdn-lkbifsgry3ni22_tn.webp',
+    image: 'https://i.imgur.com/Ip5fPaO.jpeg',
     rating: '4.9',
     promoIcon: 'https://down-br.img.susercontent.com/file/id-11134258-81ztc-me3yjy0bgg02c5',
   },
@@ -35,7 +35,7 @@ const products = [
     price: '19.999,00',
     sold: '',
     discount: '-17%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7rdyt-md24x4bv2st0e4_tn.webp',
+    image: 'https://i.imgur.com/KeAL2If.jpeg',
     rating: null,
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
     hasVideo: true,
@@ -45,7 +45,7 @@ const products = [
     price: '17,99',
     sold: '225 vendidos',
     discount: '-57%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7rdw8-mdko80hpn0t0ac_tn.webp',
+    image: 'https://i.imgur.com/xX8fm4W.jpeg',
     rating: '4.9',
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
@@ -183,4 +183,195 @@ export function SameSellerProducts() {
       </Carousel>
     </div>
   );
+}
+
+const moreProducts = [
+  {
+    name: 'Carreta Basculante para Trator Cortador de Grama 300kg Estrutura Aço Caçamba Preta',
+    price: '1.899,00',
+    sold: '2 vendidos',
+    discount: '-8%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-824jl-me4r0lvtc3yd9f_tn.webp',
+    rating: '5.0',
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+  },
+  {
+    name: 'Pistola de Pintura Profissional Ar Direto 600ml 36psi Com 2 Bicos de Pintura 1,2mm Compressor Tufão',
+    price: '41,99',
+    sold: '844 vendidos',
+    discount: '-40%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7rdwx-lz268rzf69dz3c_tn.webp',
+    rating: '4.9',
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+  },
+  {
+    name: 'Painel de LED Avant Luz Neutra 18W Bivolt Quadrado 19cm Instalação Sobrepor Iluminação Geral',
+    price: '29,99',
+    sold: '',
+    discount: null,
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-82621-mja6rpzvnll27c_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+  },
+  {
+    name: 'Kit 9 Painel de LED POP Luz Neutra Bivolt Avant 29cm 24W Instalçao Embutir Iluminação Geral',
+    price: '198,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-8262h-mj5lgyjsie4iec_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit 7 Painel de LED Quadrado 28cm Avant Embutido 24W Luz Amarela Bivolt Iluminação Geral',
+    price: '153,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-82621-mj8h26slff9f23_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit 8 Painel de LED POP Luz Neutra Bivolt Avant 29cm 24W Instalçao Embutir Iluminação Geral',
+    price: '179,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-82618-mj5l2376pekg33_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit 2 Painel de LED POP Luz Neutra Bivolt Avant 29cm 24W Instalçao Embutir Iluminação Geral',
+    price: '54,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-82631-mj8ffty1z75y5f_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit 20 Painel de LED POP Luz Neutra Bivolt Avant 29cm 24W Instalçao Embutir Iluminação Geral',
+    price: '399,00',
+    sold: '',
+    discount: '-13%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-82612-mj8fgcap4feo9e_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Adega Climatizada Para 18 Garrafas Iluminação Led Porta de Vidro PAD18I Philco',
+    price: '1.709,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-824hj-mehcrvmnf5dwc1_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+  },
+  {
+    name: 'Painel de LED POP Quadrado 28cm Avant Luz Amarela 24W Bivolt Instalção Embutir',
+    price: '36,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-8262a-mjaxaxjv12wy42_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit Iluminação 6 Painel de LED Slim Quadrado Avant 30W de Luz Branca Bivolt Iluminação Geral',
+    price: '499,00',
+    sold: '',
+    discount: '-12%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-8261b-mjaxelqkw8p1be_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Esquadro Magnético Capacidade 30Kg EM-9030 Soldador Super Tork',
+    price: '28,10',
+    sold: '576 vendidos',
+    discount: '-22%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7rbk9-llb8fjufbu0c26_tn.webp',
+    rating: '4.8',
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+  },
+  {
+    name: 'Grampeador Pneumático Profissional 6mm A 16mm 80/16 Pdr',
+    price: '369,90',
+    sold: '1 vendidos',
+    discount: '-5%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-7rceu-lt2fdwmnv6kcf5_tn.webp',
+    rating: '5.0',
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+  },
+  {
+    name: 'Painel de LED Avant Instalção Sobrepor Quadrado 40cm Luz Branca 30W Bivolt Iluminação Geral',
+    price: '99,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-82610-mj7dh6zu4c1u40_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit 5 Painel de LED Quadrado 28cm Avant Embutido 24W Luz Amarela Bivolt Iluminação Geral',
+    price: '108,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-8260g-mj8ftmdgl3b586_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+  {
+    name: 'Kit 6 Painel de LED Quadrado 28cm Avant Embutido 24W Luz Amarela Bivolt Iluminação Geral',
+    price: '126,00',
+    sold: '',
+    discount: '-10%',
+    image: 'https://down-br.img.susercontent.com/file/sg-11134201-8260f-mj8gtjamabr999_tn.webp',
+    rating: null,
+    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    hasVideo: true,
+  },
+];
+
+export function MoreProducts() {
+    return (
+        <div className="mt-2 border-t border-gray-100 bg-gray-50 p-4">
+        <div className="mb-4 flex items-center justify-between">
+            <h2 className="text-base font-semibold text-gray-700">
+            Produtos do mesmo vendedor
+            </h2>
+            <a href="#" className="flex items-center text-sm text-primary hover:underline">
+            Ver tudo <ChevronRight className="h-4 w-4" />
+            </a>
+        </div>
+        <Carousel
+            opts={{
+            align: 'start',
+            loop: true,
+            }}
+            className="w-full"
+        >
+            <CarouselContent>
+            {moreProducts.map((product, index) => (
+                <CarouselItem key={index} className="basis-1/2 md:basis-1/3">
+                <div className="p-1">
+                    <ProductCard product={product} />
+                </div>
+                </CarouselItem>
+            ))}
+            </CarouselContent>
+            <CarouselPrevious className="absolute -left-3 top-1/2 -translate-y-1/2" />
+            <CarouselNext className="absolute -right-3 top-1/2 -translate-y-1/2" />
+        </Carousel>
+        </div>
+    );
 }
