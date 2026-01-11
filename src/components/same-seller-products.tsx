@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -47,15 +46,6 @@ const products = [
     discount: '-57%',
     image: 'https://i.imgur.com/xX8fm4W.jpeg',
     rating: '4.9',
-    promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
-  },
-  {
-    name: 'Trator A Gasolina Partida Elétrica Carro Cortador De Grama Automático Tgh 175 Vonder',
-    price: '25.899,00',
-    sold: '',
-    discount: '-10%',
-    image: 'https://down-br.img.susercontent.com/file/sg-11134201-824i4-mehm1r244l536d_tn.webp',
-    rating: null,
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
   {
