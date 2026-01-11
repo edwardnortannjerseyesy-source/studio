@@ -12,38 +12,42 @@ import { ChevronRight } from 'lucide-react';
 
 const products = [
   {
-    name: 'Trator Cortador de Grama Dirigivel a Gasolina 7,5L 14,5HP OM 99 L/14.5 K 7,5L Oleo Mac',
-    price: '15.699,99',
+    name: 'Cooler Igloo Ecocool 85L Caixa Térmica com Rodas e Trava Reforçada Caixa Termica',
+    price: '139,89',
+    originalPrice: '299,99',
     sold: '',
-    discount: '-24%',
+    discount: '-53%',
     image: 'https://i.imgur.com/VT0ZcoI.jpeg',
     rating: null,
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
   },
   {
-    name: 'Motor Estacionário Gasolina 7cv 4 Tempo Partida Manual Zmax',
-    price: '599,99',
+    name: 'Caixa Térmica Cooler Latitude 30 Cinza 28 Lts Igloo Coleman',
+    price: '129,90',
+    originalPrice: '279,00',
     sold: '154 vendidos',
-    discount: '-40%',
+    discount: '-53%',
     image: 'https://i.imgur.com/Ip5fPaO.jpeg',
     rating: '4.9',
     promoIcon: 'https://down-br.img.susercontent.com/file/id-11134258-81ztc-me3yjy0bgg02c5',
   },
   {
-    name: 'Microtrator Diesel Toyama TDWT80E 16.5HP Refrigeração a Água Partida Elétrica Manual 6 Marchas',
-    price: '19.999,00',
+    name: 'CAIXA TÉRMICA IGLOO 56L AZUL COM RODAS IGLOO',
+    price: '119,99',
+    originalPrice: '269,99',
     sold: '',
-    discount: '-17%',
+    discount: '-56%',
     image: 'https://i.imgur.com/KeAL2If.jpeg',
     rating: null,
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
     hasVideo: true,
   },
   {
-    name: 'Painel Plafon Redondo Sobrepor Luz Branco Frio 6500k Bivolt 24w Gesso Sanca',
-    price: '17,99',
+    name: 'Caixa Cooler Térmico Branco Marine Ultra Igloo 51 Litros Até 76 Latas Resistente Barco Pesca',
+    price: '129,99',
+    originalPrice: '289,99',
     sold: '225 vendidos',
-    discount: '-57%',
+    discount: '-55%',
     image: 'https://i.imgur.com/xX8fm4W.jpeg',
     rating: '4.9',
     promoIcon: 'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
@@ -85,25 +89,34 @@ function ProductCard({ product }: { product: (typeof products)[0] }) {
         )}
       </div>
       <div className="flex flex-1 flex-col justify-between p-2">
-        <p className="mb-1 min-h-[2.5rem] break-words text-xs line-clamp-2">
-          {product.promoIcon && (
-            <Image src={product.promoIcon} alt="promo" width={14} height={14} className="mr-0.5 mb-0.5 inline-block h-[14px]" />
-          )}
-          {product.name}
-        </p>
-        {product.rating && (
-            <div className='mb-2 flex items-center gap-1 rounded-[1px] border-[0.5px] border-amber-400 bg-amber-50 px-1 py-[1px] text-xs w-fit'>
-                <Image src="https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/d7099d3fd1dfdaf705ab.svg" alt="rating icon" width={8} height={8} />
-                <span className='text-xs'>{product.rating}</span>
-            </div>
-        )}
+        <div>
+            <p className="mb-1 min-h-[2.5rem] break-words text-xs line-clamp-2">
+            {product.promoIcon && (
+                <Image src={product.promoIcon} alt="promo" width={14} height={14} className="mr-0.5 mb-0.5 inline-block h-[14px]" />
+            )}
+            {product.name}
+            </p>
+            {product.rating && (
+                <div className='mb-2 flex items-center gap-1 rounded-[1px] border-[0.5px] border-amber-400 bg-amber-50 px-1 py-[1px] text-xs w-fit'>
+                    <Image src="https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/d7099d3fd1dfdaf705ab.svg" alt="rating icon" width={8} height={8} />
+                    <span className='text-xs'>{product.rating}</span>
+                </div>
+            )}
+        </div>
         <div className="flex items-center justify-between space-x-1">
-          <div className="flex items-baseline font-medium text-primary">
-            <span className="mr-px text-xs">R$</span>
-            <span className="text-base leading-5">{product.price}</span>
-          </div>
+            <div className="flex flex-col font-medium text-primary">
+                {product.originalPrice && (
+                    <span className="text-xs text-gray-500 line-through">
+                        R${product.originalPrice}
+                    </span>
+                )}
+                <div className="flex items-baseline">
+                    <span className="mr-px text-xs">R$</span>
+                    <span className="text-base leading-5">{product.price}</span>
+                </div>
+            </div>
           {product.sold && (
-            <div className="ml-auto flex-shrink-1 truncate text-xs text-gray-500">
+            <div className="ml-auto flex-shrink-0 truncate text-xs text-gray-500 self-end">
               {product.sold}
             </div>
           )}
