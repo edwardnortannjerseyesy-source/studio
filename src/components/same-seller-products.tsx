@@ -21,6 +21,7 @@ const products = [
     rating: null,
     promoIcon:
       'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    link: 'https://www.seguropagamentos.com.br/Cooler-igloo',
   },
   {
     name: 'Caixa Térmica Cooler Latitude 30 Cinza 28 Lts Igloo Coleman',
@@ -32,6 +33,7 @@ const products = [
     rating: '4.9',
     promoIcon:
       'https://down-br.img.susercontent.com/file/id-11134258-81ztc-me3yjy0bgg02c5',
+    link: 'https://www.seguropagamentos.com.br/Cooler-Latitude',
   },
   {
     name: 'CAIXA TÉRMICA IGLOO 56L AZUL COM RODAS IGLOO',
@@ -44,6 +46,7 @@ const products = [
     promoIcon:
       'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
     hasVideo: true,
+    link: 'https://www.seguropagamentos.com.br/Igloo-56L',
   },
   {
     name: 'Caixa Cooler Térmico Branco Marine Ultra Igloo 51 Litros Até 76 Latas Resistente Barco Pesca',
@@ -55,13 +58,14 @@ const products = [
     rating: '4.9',
     promoIcon:
       'https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/34f1ca8d6f23d7d43c17.png',
+    link: 'https://www.seguropagamentos.com.br/caixa-branca',
   },
 ];
 
 function ProductCard({ product }: { product: (typeof products)[0] }) {
   return (
     <a
-      href="#"
+      href={product.link}
       className="flex h-full flex-col overflow-hidden rounded-sm border border-gray-200 bg-white transition-shadow duration-100 hover:shadow-lg"
     >
       <div className="relative w-full pt-[100%]">

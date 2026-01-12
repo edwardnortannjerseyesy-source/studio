@@ -11,12 +11,14 @@ export function CallToActions() {
             <ShoppingCart className="h-5 w-5" />
             <span className="text-xs font-medium">Carrinho</span>
         </Button>
-        <Button 
-            variant="default" 
-            className="col-span-3 h-14 rounded-none text-base font-medium"
-        >
-            Comprar Agora
-        </Button>
+        <a href="https://www.seguropagamentos.com.br/caixa-cooler" target="_blank" rel="noopener noreferrer" className='col-span-3'>
+            <Button 
+                variant="default" 
+                className="h-14 w-full rounded-none text-base font-medium"
+            >
+                Comprar Agora
+            </Button>
+        </a>
     </footer>
   );
 }
