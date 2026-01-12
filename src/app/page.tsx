@@ -3,6 +3,7 @@ import { ImageCarousel } from '@/components/image-carousel';
 import { ProductInfo } from '@/components/product-info';
 import { ProductDetails } from '@/components/product-details';
 import { CallToActions } from '@/components/call-to-actions';
+import { SameSellerProducts } from '@/components/same-seller-products';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <ImageCarousel />
         <ProductInfo />
         <ProductDetails />
+        <SameSellerProducts />
       </main>
       <CallToActions />
     </div>
