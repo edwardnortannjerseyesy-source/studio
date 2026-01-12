@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import {
   Carousel,
   CarouselContent,
@@ -69,19 +68,17 @@ function ProductCard({ product }: { product: (typeof products)[0] }) {
       className="flex h-full flex-col overflow-hidden rounded-sm border border-gray-200 bg-white transition-shadow duration-100 hover:shadow-lg"
     >
       <div className="relative w-full pt-[100%]">
-        <Image
+        <img
           src={product.image}
           alt={product.name}
-          fill
           className="pointer-events-none absolute inset-0 h-full w-full object-contain"
-          sizes="(max-width: 500px) 50vw, 200px"
         />
         {product.discount && (
           <div className="absolute right-0 top-0 z-10 rounded-bl-md bg-accent px-1 py-0.5 text-xs font-medium text-primary">
             {product.discount}
           </div>
         )}
-        <Image
+        <img
           src="https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbqsb4pezeqh51"
           alt="Overlay"
           width={180}
@@ -103,7 +100,7 @@ function ProductCard({ product }: { product: (typeof products)[0] }) {
         <div>
           <p className="mb-1 break-words text-xs">
             {product.promoIcon && (
-              <Image
+              <img
                 src={product.promoIcon}
                 alt="promo"
                 width={14}
@@ -115,7 +112,7 @@ function ProductCard({ product }: { product: (typeof products)[0] }) {
           </p>
           {product.rating && (
             <div className="mb-2 flex w-fit items-center gap-1 rounded-[1px] border-[0.5px] border-amber-400 bg-amber-50 px-1 py-[1px] text-xs">
-              <Image
+              <img
                 src="https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__item-card-recommendation-v2/0.1.94/pc/d7099d3fd1dfdaf705ab.svg"
                 alt="rating icon"
                 width={8}

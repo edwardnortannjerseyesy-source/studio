@@ -1,11 +1,11 @@
-import Image from 'next/image';
+
 
 export function PageHeader() {
   return (
     <header className="sticky top-0 z-20">
       <div className="bg-shopee-gradient flex w-full items-center justify-between gap-3 p-3">
         <div className="w-[110px] flex-shrink-0">
-          <Image
+          <img
             alt="Shopee"
             width="110"
             height="38"

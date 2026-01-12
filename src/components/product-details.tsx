@@ -5,7 +5,6 @@ import {
   ThumbsUp,
   User,
 } from 'lucide-react';
-import Image from 'next/image';
 
 function DetailRow({
   label,
@@ -95,28 +94,28 @@ export function ProductDetails() {
           Descrição do produto
         </h2>
         <div className="mt-2 space-y-4 text-sm text-gray-700">
-          <Image
+          <img
             src="https://down-br.img.susercontent.com/file/br-11134208-7r98o-mbi603hcn1bsdd"
             alt="Product image 1"
             width={875}
             height={875}
             className="h-auto w-full"
           />
-          <Image
+          <img
             src="https://down-br.img.susercontent.com/file/br-11134208-7r98o-mbi603hcofw8fb"
             alt="Product image 2"
             width={875}
             height={875}
             className="h-auto w-full"
           />
-          <Image
+          <img
             src="https://down-br.img.susercontent.com/file/br-11134208-7r98o-mbi603hcpugo35"
             alt="Product image 3"
             width={875}
             height={875}
             className="h-auto w-full"
           />
-          <Image
+          <img
             src="https://down-br.img.susercontent.com/file/br-11134208-7r98o-mbi603hcr914a9"
             alt="Product image 4"
             width={875}

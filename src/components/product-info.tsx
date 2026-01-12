@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import { CountdownTimer } from './countdown-timer';
 
 export function ProductInfo() {
@@ -34,7 +33,7 @@ export function ProductInfo() {
         </div>
         <div className="flex flex-col items-end">
           <div className="mb-2">
-            <Image
+            <img
               alt="Oferta Relâmpago"
               loading="lazy"
               width="120"

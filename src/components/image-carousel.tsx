@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -35,14 +34,10 @@ export function ImageCarousel() {
         >
           {images.map((image, index) => (
             <div key={index} className="relative h-full w-full flex-shrink-0">
-              <Image
+              <img
                 alt={image.alt}
                 src={image.src}
-                fill
-                className="object-cover"
-                sizes="(max-width: 500px) 100vw, 500px"
-                priority={index === 0}
-                loading={index === 0 ? undefined : 'lazy'}
+                className="object-cover w-full h-full"
               />
             </div>
           ))}
