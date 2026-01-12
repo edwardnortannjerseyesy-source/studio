@@ -28,7 +28,7 @@ export function ProductInfo() {
           <div>
             <h2 className="font-headline flex items-baseline leading-none text-white">
               <span className="mr-0.5 text-[18px]">R$</span>
-              <span className="text-[42px] tracking-tight">89,90</span>
+              <span className="text-[42px] tracking-tight">189,90</span>
             </h2>
           </div>
         </div>
