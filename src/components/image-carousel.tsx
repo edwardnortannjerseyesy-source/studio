@@ -5,13 +5,13 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const images = [
+  { src: 'https://i.imgur.com/3nLjNCV.jpeg', alt: 'Produto 3' },
   { src: 'https://i.imgur.com/ZdRLuAO.png', alt: 'Produto 1' },
   { src: 'https://i.imgur.com/7mWZRWy.png', alt: 'Produto 2' },
-  { src: 'https://i.imgur.com/3nLjNCV.jpeg', alt: 'Produto 3' },
 ];
 
 export function ImageCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(images.length - 1);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
     setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
