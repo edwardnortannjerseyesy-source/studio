@@ -33,14 +33,7 @@ export function ProductInfo() {
         </div>
         <div className="flex flex-col items-end">
           <div className="mb-2">
-            <img
-              alt="Oferta Relâmpago"
-              loading="lazy"
-              width="120"
-              height="31"
-              className="h-auto w-[120px]"
-              src="https://down-br.img.susercontent.com/file/br-50009109-d737b1f8753239a58de3a4874b283c48"
-            />
+            
           </div>
           <div className="text-[12px] font-medium text-white opacity-90">
             <p>1.871 Vendidos</p>
