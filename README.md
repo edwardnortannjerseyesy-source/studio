@@ -1,4 +1,4 @@
-# Firebase Studio
+https://github.com/igliootermicasoficialbr-dotcom/tella-shop.git# Firebase Studio
 
 This is a NextJS starter in Firebase Studio.
 
