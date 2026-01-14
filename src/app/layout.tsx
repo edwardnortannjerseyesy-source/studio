@@ -22,7 +22,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;900&display=swap" rel="stylesheet" />
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
-            window.pixelId = "6964739e8e1b74f1ca7b325d";
+            window.pixelId = "6967076cf156abef76903196";
             var a = document.createElement("script");
             a.setAttribute("async", "");
             a.setAttribute("defer", "");
