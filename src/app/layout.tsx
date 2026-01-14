@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Shopee Clone',
+  title: 'Shopee',
   description: 'A clone of a Shopee product page.',
 };
 
